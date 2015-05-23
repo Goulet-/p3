@@ -1,0 +1,165 @@
+/********************
+YOUR STYLES
+*******************/
+body {
+  background-color: #0066FF;
+}
+
+p {
+  color: #ffa;
+  font-size: 12px;
+  text-align: justify;
+  padding-left: 5px;
+
+}
+/*----- Menu Outline -----*/
+.menu-wrap {
+    width:100%;
+    box-shadow:0px 1px 3px rgba(0,0,0,0.2);
+    background:#3e3436;
+}
+ 
+.menu {
+    width:1000px;
+    margin:0px auto;
+}
+ 
+.menu li {
+    margin:0px;
+    list-style:none;
+    font-family:'Ek Mukta';
+}
+ 
+.menu a {
+    transition:all linear 0.15s;
+    color: rgba(38,42,89,0.98);
+}
+ 
+.menu li:hover > a, .menu .current-item > a {
+    text-decoration:none;
+    color:#ffa;
+}
+ 
+.menu .arrow {
+    font-size:11px;
+    line-height:0%;
+}
+ 
+/*----- Top Level -----*/
+.menu > ul > li {
+    float:left;
+    display:inline-block;
+    position:relative;
+    font-size:19px;
+}
+ 
+.menu > ul > li > a {
+    padding:15px 100px;
+    display:inline-block;
+    text-shadow:0px 1px 0px rgba(0,0,0,0.4);
+    text-decoration: none;
+}
+ 
+.menu > ul > li:hover > a, .menu > ul > .current-item > a {
+    background:#2e2728;
+}
+ 
+/*----- Bottom Level -----*/
+.menu li:hover .sub-menu {
+    z-index:1;
+    opacity:1;
+}
+ 
+.sub-menu {
+    width:160%;
+    padding:5px 0px;
+    position:absolute;
+    top:100%;
+    left:0px;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+    background:#2e2728;
+}
+ 
+.sub-menu li {
+    display:block;
+    font-size:16px;
+}
+ 
+.sub-menu li a {
+    padding:10px 30px;
+    display:block;
+    text-decoration: none;
+    color: #ffa;
+}
+ 
+.sub-menu li a:hover, .sub-menu .current-item a {
+    background:#FFCC00;
+}
+
+
+.mejs-treehouse .mejs-controls {
+  background: rgba(56,64,71,0.98);
+  height: 30px;
+}
+
+.mejs-treehouse .mejs-controls .mejs-button button {
+  
+}
+
+.mejs-treehouse .mejs-controls .mejs-captions-button {
+  margin: 0 7px;
+}
+
+.mejs-treehouse .mejs-controls .mejs-captions-selector {
+  background: rgba(56,64,71,0.98);
+  width: 100px;
+  right: auto;
+}
+
+.mejs-treehouse .mejs-controls .mejs-time-rail {
+  padding: 0;
+}
+
+.mejs-treehouse .mejs-controls .mejs-time-rail span {
+  height: 100%;
+  border-radius: 0px;
+}
+
+#pacman {
+  width: 0px;
+  height: 0px;
+  border-right: 60px solid transparent;
+  border-top: 60px solid yellow;
+  border-left: 60px solid yellow;
+  border-bottom: 60px solid yellow;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  display: center;
+}
+
+
+
+
+/********************
+MEDIA QUERIES
+*******************/
+
+/* Desktop */
+@media (min-width: 1200px) {
+
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+
+}
+
+/* Mobile */
+@media (min-width: 480px) {
+
+}
